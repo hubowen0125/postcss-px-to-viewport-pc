@@ -24,7 +24,7 @@ var defaults = {
 
 var notConvert = false
 
-module.exports = postcss.plugin('postcss-px-to-viewport', function (options) {
+module.exports = postcss.plugin('postcss-px-to-viewport-pc', function (options) {
   
   var opts = objectAssign({}, defaults, options);
 

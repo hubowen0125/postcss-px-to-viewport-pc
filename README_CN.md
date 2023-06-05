@@ -1,4 +1,4 @@
-# postcss-px-to-viewport
+# postcss-px-to-viewport-pc
 [![NPM version](https://badge.fury.io/js/postcss-px-to-viewport-pc.svg)](http://badge.fury.io/js/postcss-px-to-viewport-pc)
 
 [English](README.md) | 中文
@@ -9,7 +9,7 @@
 
 如果你的样式需要做根据视口大小来调整宽度，这个脚本可以将你CSS中的px单位转化为vw，1vw等于1/100视口宽度。
 添加适配pc端设置固定大小，不在根据pc窗口，而是根据自己设置标签自适应
-配置跟postcss-px-to-viewport是一样的需要配合selectorBlackList来一起使用设置不校验类名
+配置跟postcss-px-to-viewport-pc是一样的需要配合selectorBlackList来一起使用设置不校验类名
 //指定不转换为视窗单位的类，可以自定义，可以无限添加,建议定义一至两个通用的类名
 
 ### 输入

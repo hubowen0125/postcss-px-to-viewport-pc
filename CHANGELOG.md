@@ -7,17 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased 1.2.0] - 2020-xx-xx
 
 You can install edge-version over
-`npm i -D evrone/postcss-px-to-viewport` or `yarn add -D evrone/postcss-px-to-viewport`.
+`npm i -D evrone/postcss-px-to-viewport-pc` or `yarn add -D evrone/postcss-px-to-viewport-pc`.
 
 ### Added
-- [#50](https://github.com/evrone/postcss-px-to-viewport/pull/50) by [@IceApriler](https://github.com/IceApriler):
+- [#50](https://github.com/evrone/postcss-px-to-viewport-pc/pull/50) by [@IceApriler](https://github.com/IceApriler):
   `include` (Regexp or Array of Regexp) If `include` is set, only matching files will be converted,
   for example, only files under `src/mobile/` (`include: /\/src\/mobile\//`)
   > `exclude` and `include` can be set together, and the intersection of the two rules will be taken.
 - Added `/* px-to-viewport-ignore */` and `/* px-to-viewport-ignore-next */` — special comments
   for ignore conversion of single lines, inspired by
-  [#27](https://github.com/evrone/postcss-px-to-viewport/pull/27) from [@lcat](https://github.com/lcat)
-  [Read more about ignoring](https://github.com/evrone/postcss-px-to-viewport#ignoring).
+  [#27](https://github.com/evrone/postcss-px-to-viewport-pc/pull/27) from [@lcat](https://github.com/lcat)
+  [Read more about ignoring](https://github.com/evrone/postcss-px-to-viewport-pc#ignoring).
 
 ### Changed
 - Changed testing lib to [Jest](https://github.com/facebook/jest)

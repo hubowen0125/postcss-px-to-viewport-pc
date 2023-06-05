@@ -1,4 +1,4 @@
-# postcss-px-to-viewport
+# postcss-px-to-viewport-pc
 [![NPM version](https://badge.fury.io/js/postcss-px-to-viewport-pc.svg)](http://badge.fury.io/js/postcss-px-to-viewport-pc)
 
 English | [中文](README_CN.md) 
