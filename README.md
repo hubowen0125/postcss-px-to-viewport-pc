@@ -1,5 +1,5 @@
 # postcss-px-to-viewport
-[![NPM version](https://badge.fury.io/js/postcss-px-to-viewport.svg)](http://badge.fury.io/js/postcss-px-to-viewport)
+[![NPM version](https://badge.fury.io/js/postcss-px-to-viewport-pc.svg)](http://badge.fury.io/js/postcss-px-to-viewport-pc)
 
 English | [中文](README_CN.md) 
 
@@ -7,7 +7,13 @@ A plugin for [PostCSS](https://github.com/postcss/postcss) that generates viewpo
 
 ## Demo
 
-If your project involves a fixed width, this script will help to convert pixels into viewport units.
+If your style needs to adjust the width based on the viewport size, this script can convert the px unit in your CSS to vw, where 1vw is equal to 1/100 of the viewport width.
+
+Add an adaptive PC terminal to set a fixed size, no longer based on the PC window, but based on self setting labels for adaptation
+
+The configuration is the same as that of postcss px to viewport, which needs to be used in conjunction with selectorBlackList to set non verified class names
+
+//Specify classes that are not converted to window units, which can be customized and can be added infinitely. It is recommended to define one or two universal class names
 
 ### Input
 
